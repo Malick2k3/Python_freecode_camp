@@ -1,5 +1,5 @@
-text = 'mrttaqrhknsw ih puggrur'
-custom_key = 'happycoding'
+text = input('Enter the text to encrypt: ')
+custom_key = input('Enter the key: ')
 
 def vigenere(message, key, direction=1):
     key_index = 0
